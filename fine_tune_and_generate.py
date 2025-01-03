@@ -9,8 +9,8 @@ from diffusers import StableDiffusionPipeline
 import glob
 
 # 데이터 경로
-dataset_path = '/home/woongsup/Desktop/dahyun/Ship'
-csv_path = '/home/woongsup/Desktop/dahyun/image_hashes_with_prompts.csv'
+dataset_path = '/C/User/chlalsrud/Desktop/Ship'
+csv_path = '/C/User/chlalsrud/Desktop/image_hashes_with_prompts.csv'
 
 # CSV 파일 로드
 df = pd.read_csv(csv_path)
